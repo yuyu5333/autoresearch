@@ -1,0 +1,7 @@
+Vocab size: 8,192
+Traceback (most recent call last):
+  File "/root/autoresearch/train.py", line 428, in <module>
+    print(f"Model config: {asdict(config)}")
+  File "/usr/lib/python3.10/dataclasses.py", line 1237, in asdict
+    raise TypeError("asdict() should be called on dataclass instances")
+TypeError: asdict() should be called on dataclass instances
